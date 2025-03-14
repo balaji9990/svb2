@@ -1,0 +1,77 @@
+
+
+/* Mobile Styles - mobile.css */
+@media screen and (max-width: 780px) {
+
+
+
+
+    /* Home Section */
+    .home-pic img {
+        width: 100%;
+       
+    }
+
+    #home{
+    padding-bottom: 0%;
+    }
+
+    /* About Section */
+    .about-img {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-img1 {
+        width: 90%;
+    }
+
+    /* Facilities Section */
+    .facilities-img {
+        flex-direction: column;
+        align-items: center;
+
+       
+    }
+
+    .about-img2 {
+        width: 90%;
+        height: auto;
+    }
+
+    #gallery {
+        position: relative;
+        background-color: #dbdfbb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 500px; /* Ensure it takes full screen height */
+        width: 100%;
+    }
+ 
+   
+    .contact-info p {
+                font-size: 14px; /* Adjust text size for better readability */
+                word-wrap: break-word; /* Ensures long words break */
+                text-align: center; /* Aligns text for better mobile view */
+            }
+            #contact p {
+                display: block; /* Makes span appear on a new line */
+                margin-top: 15px; /* Adds spacing */
+            }
+        
+    .contact-title {
+
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 2rem;
+        margin-top: 2rem;                                   
+    }
+    
+
+    /* Footer */
+    .footer {
+        font-size: 1em;
+        padding: 15px;
+    }
+}
